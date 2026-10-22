@@ -1,0 +1,2092 @@
+{
+  "date": "2026-10-22T00:03:03.520Z",
+  "figureHeightMM": 80,
+  "baseMM": 2.93,
+  "totalHeightMM": 82.93,
+  "footprintMM": [
+    53.24,
+    54.89
+  ],
+  "checks": [
+    {
+      "name": "kubara.stl",
+      "triangles": 116668,
+      "watertight": true,
+      "manifoldStatus": "NoError",
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "misorientedEdges": 0,
+      "degenerateTris": 0,
+      "shells": 1,
+      "genus": 1,
+      "volumeMM3": 99487.95,
+      "areaMM2": 16859.37,
+      "bbox": {
+        "min": [
+          -26.62,
+          -30.03,
+          0
+        ],
+        "max": [
+          26.62,
+          24.85,
+          82.93
+        ],
+        "size": [
+          53.24,
+          54.89,
+          82.93
+        ]
+      },
+      "fileBytes": 5833484
+    },
+    {
+      "name": "kubara_nobase.stl",
+      "triangles": 110986,
+      "watertight": true,
+      "manifoldStatus": "NoError",
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "misorientedEdges": 0,
+      "degenerateTris": 0,
+      "shells": 1,
+      "genus": 0,
+      "volumeMM3": 93420.29,
+      "areaMM2": 12665.14,
+      "bbox": {
+        "min": [
+          -24.33,
+          -30.03,
+          0
+        ],
+        "max": [
+          24.33,
+          22.22,
+          80
+        ],
+        "size": [
+          48.65,
+          52.25,
+          80
+        ]
+      },
+      "fileBytes": 5549384
+    },
+    {
+      "name": "kubara_120mm.stl",
+      "triangles": 107892,
+      "watertight": true,
+      "manifoldStatus": "NoError",
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "misorientedEdges": 0,
+      "degenerateTris": 0,
+      "shells": 1,
+      "genus": 1,
+      "volumeMM3": 335771.84,
+      "areaMM2": 37928.44,
+      "bbox": {
+        "min": [
+          -39.93,
+          -45.05,
+          0
+        ],
+        "max": [
+          39.93,
+          37.28,
+          124.39
+        ],
+        "size": [
+          79.86,
+          82.33,
+          124.39
+        ]
+      },
+      "fileBytes": 5394684
+    },
+    {
+      "name": "parts/fur.stl",
+      "triangles": 128474,
+      "watertight": true,
+      "manifoldStatus": "NoError",
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "misorientedEdges": 0,
+      "degenerateTris": 0,
+      "shells": 1,
+      "genus": 2,
+      "volumeMM3": 88576.35,
+      "areaMM2": 12509.65,
+      "bbox": {
+        "min": [
+          -24.33,
+          -22.57,
+          2.93
+        ],
+        "max": [
+          24.33,
+          22.22,
+          82.93
+        ],
+        "size": [
+          48.65,
+          44.79,
+          80
+        ]
+      },
+      "fileBytes": 6423784
+    },
+    {
+      "name": "parts/fur_shade.stl",
+      "triangles": 39642,
+      "watertight": true,
+      "manifoldStatus": "NoError",
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "misorientedEdges": 0,
+      "degenerateTris": 0,
+      "shells": 3,
+      "genus": -2,
+      "volumeMM3": 3708.97,
+      "areaMM2": 1412.51,
+      "bbox": {
+        "min": [
+          -15.85,
+          -29.79,
+          54.13
+        ],
+        "max": [
+          15.85,
+          11.52,
+          80.92
+        ],
+        "size": [
+          31.7,
+          41.31,
+          26.79
+        ]
+      },
+      "fileBytes": 1982184
+    },
+    {
+      "name": "parts/glint.stl",
+      "triangles": 3544,
+      "watertight": true,
+      "manifoldStatus": "NoError",
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "misorientedEdges": 0,
+      "degenerateTris": 0,
+      "shells": 2,
+      "genus": -1,
+      "volumeMM3": 23.93,
+      "areaMM2": 98.99,
+      "bbox": {
+        "min": [
+          -14.98,
+          -12.73,
+          72.32
+        ],
+        "max": [
+          14.98,
+          -8.17,
+          78.58
+        ],
+        "size": [
+          29.96,
+          4.56,
+          6.26
+        ]
+      },
+      "fileBytes": 177284
+    },
+    {
+      "name": "parts/ink.stl",
+      "triangles": 78966,
+      "watertight": true,
+      "manifoldStatus": "NoError",
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "misorientedEdges": 0,
+      "degenerateTris": 0,
+      "shells": 5,
+      "genus": -3,
+      "volumeMM3": 7159.33,
+      "areaMM2": 6184.85,
+      "bbox": {
+        "min": [
+          -26.62,
+          -30.03,
+          0
+        ],
+        "max": [
+          26.62,
+          24.85,
+          79
+        ],
+        "size": [
+          53.24,
+          54.89,
+          79
+        ]
+      },
+      "fileBytes": 3948384
+    }
+  ],
+  "assembly": {
+    "pairwiseOverlapMM3": 0.0083,
+    "partsOutsideBodyMM3": 0.0006,
+    "bodyNotCoveredByPartsMM3": 19.3908,
+    "partsVolumeMM3": 99468.57,
+    "bodyVolumeMM3": 99487.95
+  },
+  "threeMF": {
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "parts": [
+      {
+        "id": "2",
+        "name": "fur",
+        "extruder": 1,
+        "color": "#9BE0DFFF",
+        "tris": 128474,
+        "volumeMM3": 88576.35,
+        "matchesSTL": true
+      },
+      {
+        "id": "3",
+        "name": "fur_shade",
+        "extruder": 2,
+        "color": "#21B3B4FF",
+        "tris": 39642,
+        "volumeMM3": 3708.97,
+        "matchesSTL": true
+      },
+      {
+        "id": "4",
+        "name": "ink",
+        "extruder": 3,
+        "color": "#0A0F0FFF",
+        "tris": 78966,
+        "volumeMM3": 7159.33,
+        "matchesSTL": true
+      },
+      {
+        "id": "5",
+        "name": "glint",
+        "extruder": 4,
+        "color": "#FCFDFDFF",
+        "tris": 3544,
+        "volumeMM3": 23.93,
+        "matchesSTL": true
+      }
+    ],
+    "filamentColours": [
+      "#9BE0DF",
+      "#21B3B4",
+      "#0A0F0F",
+      "#FCFDFD"
+    ],
+    "pairwiseOverlapMM3": 0.0083
+  },
+  "overhang": {
+    "thresholdDeg": 45,
+    "projectedAreaMM2": 955.09,
+    "surfaceAreaMM2": 1097.7,
+    "restsOnBedMM2": 765.95,
+    "restsOnModelMM2": 189.15,
+    "zones": [
+      {
+        "where": "underside between the legs (crotch / rump)",
+        "projectedAreaMM2": 574.59,
+        "zRangeMM": [
+          7.28,
+          14.4
+        ],
+        "patches": 1,
+        "supportEnvelopeMM3": 4441.02,
+        "supportRestsOn": "build plate / base plate"
+      },
+      {
+        "where": "chin / underside of the snout",
+        "projectedAreaMM2": 232.9,
+        "zRangeMM": [
+          52.92,
+          56.94
+        ],
+        "patches": 1,
+        "supportEnvelopeMM3": 5199.07,
+        "supportRestsOn": "the figure below (leaves marks)"
+      },
+      {
+        "where": "toes (left foot)",
+        "projectedAreaMM2": 32.25,
+        "zRangeMM": [
+          2.95,
+          4.58
+        ],
+        "patches": 1,
+        "supportEnvelopeMM3": 23.89,
+        "supportRestsOn": "build plate / base plate"
+      },
+      {
+        "where": "toes (right foot)",
+        "projectedAreaMM2": 32.23,
+        "zRangeMM": [
+          2.97,
+          4.7
+        ],
+        "patches": 1,
+        "supportEnvelopeMM3": 23.93,
+        "supportRestsOn": "build plate / base plate"
+      },
+      {
+        "where": "under the right paw",
+        "projectedAreaMM2": 18.17,
+        "zRangeMM": [
+          26.47,
+          31.15
+        ],
+        "patches": 4,
+        "supportEnvelopeMM3": 482.64,
+        "supportRestsOn": "build plate / base plate"
+      },
+      {
+        "where": "under the left paw",
+        "projectedAreaMM2": 18.06,
+        "zRangeMM": [
+          26.47,
+          31.1
+        ],
+        "patches": 4,
+        "supportEnvelopeMM3": 478.91,
+        "supportRestsOn": "build plate / base plate"
+      },
+      {
+        "where": "back of the head / strap",
+        "projectedAreaMM2": 9.45,
+        "zRangeMM": [
+          68.66,
+          73.87
+        ],
+        "patches": 2,
+        "supportEnvelopeMM3": 3.01,
+        "supportRestsOn": "the figure below (leaves marks)"
+      },
+      {
+        "where": "heel / sole (left foot)",
+        "projectedAreaMM2": 2.37,
+        "zRangeMM": [
+          2.97,
+          3.66
+        ],
+        "patches": 1,
+        "supportEnvelopeMM3": 0.94,
+        "supportRestsOn": "build plate / base plate"
+      },
+      {
+        "where": "right ear",
+        "projectedAreaMM2": 1.8,
+        "zRangeMM": [
+          80,
+          80.75
+        ],
+        "patches": 1,
+        "supportEnvelopeMM3": 1.76,
+        "supportRestsOn": "the figure below (leaves marks)"
+      },
+      {
+        "where": "left ear",
+        "projectedAreaMM2": 1.79,
+        "zRangeMM": [
+          80,
+          80.75
+        ],
+        "patches": 1,
+        "supportEnvelopeMM3": 1.73,
+        "supportRestsOn": "the figure below (leaves marks)"
+      },
+      {
+        "where": "heel / sole (right foot)",
+        "projectedAreaMM2": 1.76,
+        "zRangeMM": [
+          3.04,
+          3.57
+        ],
+        "patches": 1,
+        "supportEnvelopeMM3": 0.65,
+        "supportRestsOn": "build plate / base plate"
+      }
+    ],
+    "patches": [
+      {
+        "where": "underside between the legs (crotch / rump)",
+        "projectedAreaMM2": 574.59,
+        "zRangeMM": [
+          7.28,
+          14.4
+        ],
+        "centre": [
+          0.01,
+          3.97,
+          10.69
+        ],
+        "bboxXY": [
+          [
+            -15.37,
+            -15.82
+          ],
+          [
+            15.08,
+            19.42
+          ]
+        ],
+        "supportRestsOn": "build plate / base plate",
+        "supportEnvelopeMM3": 4441.02
+      },
+      {
+        "where": "chin / underside of the snout",
+        "projectedAreaMM2": 232.9,
+        "zRangeMM": [
+          52.92,
+          56.94
+        ],
+        "centre": [
+          -0.05,
+          -19.2,
+          54.72
+        ],
+        "bboxXY": [
+          [
+            -12.57,
+            -26.93
+          ],
+          [
+            12.57,
+            -7.6
+          ]
+        ],
+        "supportRestsOn": "the figure below (leaves marks)",
+        "supportEnvelopeMM3": 5199.07
+      },
+      {
+        "where": "toes (left foot)",
+        "projectedAreaMM2": 32.25,
+        "zRangeMM": [
+          2.95,
+          4.58
+        ],
+        "centre": [
+          12.99,
+          -9.89,
+          3.66
+        ],
+        "bboxXY": [
+          [
+            7.26,
+            -12.92
+          ],
+          [
+            18.25,
+            -4.31
+          ]
+        ],
+        "supportRestsOn": "build plate / base plate",
+        "supportEnvelopeMM3": 23.89
+      },
+      {
+        "where": "toes (right foot)",
+        "projectedAreaMM2": 32.23,
+        "zRangeMM": [
+          2.97,
+          4.7
+        ],
+        "centre": [
+          -13,
+          -9.96,
+          3.66
+        ],
+        "bboxXY": [
+          [
+            -18.18,
+            -13.03
+          ],
+          [
+            -7.26,
+            -4.08
+          ]
+        ],
+        "supportRestsOn": "build plate / base plate",
+        "supportEnvelopeMM3": 23.93
+      },
+      {
+        "where": "under the right paw",
+        "projectedAreaMM2": 8.07,
+        "zRangeMM": [
+          29.18,
+          31.15
+        ],
+        "centre": [
+          -21.41,
+          -13.39,
+          30.16
+        ],
+        "bboxXY": [
+          [
+            -23.01,
+            -15.04
+          ],
+          [
+            -19.66,
+            -11.57
+          ]
+        ],
+        "supportRestsOn": "build plate / base plate",
+        "supportEnvelopeMM3": 223.29
+      },
+      {
+        "where": "under the left paw",
+        "projectedAreaMM2": 7.88,
+        "zRangeMM": [
+          29.03,
+          31.1
+        ],
+        "centre": [
+          21.36,
+          -13.32,
+          30.15
+        ],
+        "bboxXY": [
+          [
+            19.66,
+            -14.77
+          ],
+          [
+            22.95,
+            -11.27
+          ]
+        ],
+        "supportRestsOn": "build plate / base plate",
+        "supportEnvelopeMM3": 216.7
+      },
+      {
+        "where": "back of the head / strap",
+        "projectedAreaMM2": 6.41,
+        "zRangeMM": [
+          68.66,
+          73.87
+        ],
+        "centre": [
+          8.41,
+          13.43,
+          70.56
+        ],
+        "bboxXY": [
+          [
+            -9.53,
+            -0.88
+          ],
+          [
+            17.49,
+            19.26
+          ]
+        ],
+        "supportRestsOn": "the figure below (leaves marks)",
+        "supportEnvelopeMM3": 1.88
+      },
+      {
+        "where": "under the right paw",
+        "projectedAreaMM2": 4.13,
+        "zRangeMM": [
+          26.91,
+          28.24
+        ],
+        "centre": [
+          -20.25,
+          -17.09,
+          27.41
+        ],
+        "bboxXY": [
+          [
+            -21.67,
+            -18.24
+          ],
+          [
+            -18.86,
+            -15.68
+          ]
+        ],
+        "supportRestsOn": "build plate / base plate",
+        "supportEnvelopeMM3": 104.17
+      },
+      {
+        "where": "under the left paw",
+        "projectedAreaMM2": 4.05,
+        "zRangeMM": [
+          26.9,
+          28.29
+        ],
+        "centre": [
+          20.26,
+          -17.07,
+          27.42
+        ],
+        "bboxXY": [
+          [
+            18.86,
+            -18.23
+          ],
+          [
+            21.67,
+            -15.68
+          ]
+        ],
+        "supportRestsOn": "build plate / base plate",
+        "supportEnvelopeMM3": 102.19
+      },
+      {
+        "where": "under the left paw",
+        "projectedAreaMM2": 3.25,
+        "zRangeMM": [
+          26.47,
+          27.78
+        ],
+        "centre": [
+          18.67,
+          -18.71,
+          26.93
+        ],
+        "bboxXY": [
+          [
+            17.45,
+            -19.96
+          ],
+          [
+            19.96,
+            -17.47
+          ]
+        ],
+        "supportRestsOn": "build plate / base plate",
+        "supportEnvelopeMM3": 83.02
+      },
+      {
+        "where": "under the right paw",
+        "projectedAreaMM2": 3.2,
+        "zRangeMM": [
+          26.47,
+          27.86
+        ],
+        "centre": [
+          -18.7,
+          -18.71,
+          26.94
+        ],
+        "bboxXY": [
+          [
+            -19.89,
+            -19.94
+          ],
+          [
+            -17.45,
+            -17.47
+          ]
+        ],
+        "supportRestsOn": "build plate / base plate",
+        "supportEnvelopeMM3": 81.79
+      },
+      {
+        "where": "back of the head / strap",
+        "projectedAreaMM2": 3.04,
+        "zRangeMM": [
+          70.24,
+          73.87
+        ],
+        "centre": [
+          -15.89,
+          8.42,
+          72.05
+        ],
+        "bboxXY": [
+          [
+            -17.49,
+            -0.88
+          ],
+          [
+            -12.09,
+            14.84
+          ]
+        ],
+        "supportRestsOn": "the figure below (leaves marks)",
+        "supportEnvelopeMM3": 1.13
+      },
+      {
+        "where": "under the left paw",
+        "projectedAreaMM2": 2.88,
+        "zRangeMM": [
+          26.92,
+          28.22
+        ],
+        "centre": [
+          16.81,
+          -20.08,
+          27.47
+        ],
+        "bboxXY": [
+          [
+            15.7,
+            -21.18
+          ],
+          [
+            17.78,
+            -18.97
+          ]
+        ],
+        "supportRestsOn": "build plate / base plate",
+        "supportEnvelopeMM3": 77
+      },
+      {
+        "where": "under the right paw",
+        "projectedAreaMM2": 2.77,
+        "zRangeMM": [
+          26.92,
+          27.98
+        ],
+        "centre": [
+          -16.74,
+          -20.02,
+          27.42
+        ],
+        "bboxXY": [
+          [
+            -17.78,
+            -21.07
+          ],
+          [
+            -15.63,
+            -18.97
+          ]
+        ],
+        "supportRestsOn": "build plate / base plate",
+        "supportEnvelopeMM3": 73.39
+      },
+      {
+        "where": "heel / sole (left foot)",
+        "projectedAreaMM2": 2.37,
+        "zRangeMM": [
+          2.97,
+          3.66
+        ],
+        "centre": [
+          11.14,
+          3.88,
+          3.31
+        ],
+        "bboxXY": [
+          [
+            9.34,
+            2.88
+          ],
+          [
+            12.48,
+            4.42
+          ]
+        ],
+        "supportRestsOn": "build plate / base plate",
+        "supportEnvelopeMM3": 0.94
+      },
+      {
+        "where": "right ear",
+        "projectedAreaMM2": 1.8,
+        "zRangeMM": [
+          80,
+          80.75
+        ],
+        "centre": [
+          -13.67,
+          7.99,
+          80.52
+        ],
+        "bboxXY": [
+          [
+            -15.33,
+            6.82
+          ],
+          [
+            -12.04,
+            9.1
+          ]
+        ],
+        "supportRestsOn": "the figure below (leaves marks)",
+        "supportEnvelopeMM3": 1.76
+      },
+      {
+        "where": "left ear",
+        "projectedAreaMM2": 1.79,
+        "zRangeMM": [
+          80,
+          80.75
+        ],
+        "centre": [
+          13.67,
+          7.99,
+          80.52
+        ],
+        "bboxXY": [
+          [
+            12.04,
+            6.83
+          ],
+          [
+            15.33,
+            9.1
+          ]
+        ],
+        "supportRestsOn": "the figure below (leaves marks)",
+        "supportEnvelopeMM3": 1.73
+      },
+      {
+        "where": "heel / sole (right foot)",
+        "projectedAreaMM2": 1.76,
+        "zRangeMM": [
+          3.04,
+          3.57
+        ],
+        "centre": [
+          -11.54,
+          3.98,
+          3.29
+        ],
+        "bboxXY": [
+          [
+            -12.51,
+            3.5
+          ],
+          [
+            -10.29,
+            4.39
+          ]
+        ],
+        "supportRestsOn": "build plate / base plate",
+        "supportEnvelopeMM3": 0.65
+      }
+    ],
+    "islands": [],
+    "sliceZones": [
+      {
+        "where": "underside between the legs (crotch / rump)",
+        "zRangeMM": [
+          7.7,
+          14.3
+        ],
+        "unsupportedAreaMM2": 284.96,
+        "centreXY": [
+          0.05,
+          3.69
+        ]
+      },
+      {
+        "where": "chin / underside of the snout",
+        "zRangeMM": [
+          53.1,
+          56.7
+        ],
+        "unsupportedAreaMM2": 127.24,
+        "centreXY": [
+          -0.04,
+          -17.85
+        ]
+      },
+      {
+        "where": "toes (right foot)",
+        "zRangeMM": [
+          3.3,
+          4.5
+        ],
+        "unsupportedAreaMM2": 8.86,
+        "centreXY": [
+          -12.73,
+          -8.81
+        ]
+      },
+      {
+        "where": "toes (left foot)",
+        "zRangeMM": [
+          3.3,
+          4.5
+        ],
+        "unsupportedAreaMM2": 8.85,
+        "centreXY": [
+          12.73,
+          -8.81
+        ]
+      },
+      {
+        "where": "between the feet / crotch",
+        "zRangeMM": [
+          7.7,
+          8.1
+        ],
+        "unsupportedAreaMM2": 3.29,
+        "centreXY": [
+          -4.92,
+          0.14
+        ]
+      },
+      {
+        "where": "under the left paw",
+        "zRangeMM": [
+          26.7,
+          27.9
+        ],
+        "unsupportedAreaMM2": 3.07,
+        "centreXY": [
+          18.84,
+          -18.47
+        ]
+      },
+      {
+        "where": "under the right paw",
+        "zRangeMM": [
+          26.7,
+          27.9
+        ],
+        "unsupportedAreaMM2": 3.05,
+        "centreXY": [
+          -18.84,
+          -18.47
+        ]
+      }
+    ],
+    "orientations": [
+      {
+        "name": "upright on its base (as delivered)",
+        "overhangProjectedMM2": 955.09,
+        "flatBedContactMM2": 2079.89
+      },
+      {
+        "name": "tilted back 20 deg",
+        "overhangProjectedMM2": 3062.7,
+        "flatBedContactMM2": 0
+      },
+      {
+        "name": "lying on its back",
+        "overhangProjectedMM2": 1874.84,
+        "flatBedContactMM2": 2.94
+      },
+      {
+        "name": "lying on its face",
+        "overhangProjectedMM2": 2070.41,
+        "flatBedContactMM2": 62.77
+      },
+      {
+        "name": "upside down (on the ears)",
+        "overhangProjectedMM2": 2967.15,
+        "flatBedContactMM2": 0.82
+      },
+      {
+        "name": "on its side",
+        "overhangProjectedMM2": 2118.88,
+        "flatBedContactMM2": 3.19
+      }
+    ]
+  },
+  "thickness": {
+    "samples": 29595,
+    "fractionBelow08": 0.0027,
+    "fractionBelow12": 0.003,
+    "percentiles": {
+      "p0_1": 0.18,
+      "p0_5": 1.8,
+      "p1": 2.6,
+      "p5": 9.59,
+      "median": null
+    },
+    "featherMM": 0.4,
+    "regionThickness": [
+      {
+        "where": "ear",
+        "samples": 4009,
+        "featheredPct": 0.75,
+        "p1": 1.22,
+        "p5": 2.35,
+        "median": 99
+      },
+      {
+        "where": "base plate",
+        "samples": 60,
+        "featheredPct": 21.67,
+        "p1": 3.2,
+        "p5": 14.09,
+        "median": 99
+      },
+      {
+        "where": "toes (foot)",
+        "samples": 882,
+        "featheredPct": 0,
+        "p1": 5.77,
+        "p5": 9.42,
+        "median": 16.73
+      },
+      {
+        "where": "under the paw",
+        "samples": 2333,
+        "featheredPct": 0.21,
+        "p1": 6.75,
+        "p5": 8.8,
+        "median": 99
+      },
+      {
+        "where": "arm / elbow",
+        "samples": 4812,
+        "featheredPct": 0,
+        "p1": 8.49,
+        "p5": 99,
+        "median": 99
+      },
+      {
+        "where": "back of the head / strap",
+        "samples": 2394,
+        "featheredPct": 0,
+        "p1": 12.9,
+        "p5": 99,
+        "median": 99
+      },
+      {
+        "where": "heel / sole (foot)",
+        "samples": 909,
+        "featheredPct": 0,
+        "p1": 14.09,
+        "p5": 14.39,
+        "median": 99
+      },
+      {
+        "where": "between the feet / crotch",
+        "samples": 781,
+        "featheredPct": 0,
+        "p1": 14.85,
+        "p5": 15.43,
+        "median": 99
+      },
+      {
+        "where": "inner thigh / hip",
+        "samples": 1515,
+        "featheredPct": 0,
+        "p1": 16.31,
+        "p5": 99,
+        "median": 99
+      },
+      {
+        "where": "head side / strap",
+        "samples": 1197,
+        "featheredPct": 0,
+        "p1": 18.26,
+        "p5": 99,
+        "median": 99
+      },
+      {
+        "where": "snout / muzzle",
+        "samples": 594,
+        "featheredPct": 0,
+        "p1": 18.96,
+        "p5": 99,
+        "median": 99
+      },
+      {
+        "where": "sunglasses lens",
+        "samples": 2363,
+        "featheredPct": 0,
+        "p1": 99,
+        "p5": 99,
+        "median": 99
+      },
+      {
+        "where": "belly",
+        "samples": 2270,
+        "featheredPct": 0,
+        "p1": 99,
+        "p5": 99,
+        "median": 99
+      },
+      {
+        "where": "jaw / neck",
+        "samples": 278,
+        "featheredPct": 0,
+        "p1": 99,
+        "p5": 99,
+        "median": 99
+      },
+      {
+        "where": "back of the body",
+        "samples": 2628,
+        "featheredPct": 0,
+        "p1": 99,
+        "p5": 99,
+        "median": 99
+      },
+      {
+        "where": "underside between the legs (crotch / rump)",
+        "samples": 985,
+        "featheredPct": 0,
+        "p1": 99,
+        "p5": 99,
+        "median": 99
+      },
+      {
+        "where": "chin / underside of the snout",
+        "samples": 913,
+        "featheredPct": 0,
+        "p1": 99,
+        "p5": 99,
+        "median": 99
+      },
+      {
+        "where": "back of the head (occiput)",
+        "samples": 672,
+        "featheredPct": 0,
+        "p1": 99,
+        "p5": 99,
+        "median": 99
+      }
+    ],
+    "thinPoints": [
+      [
+        -7.45,
+        -5.46,
+        3
+      ],
+      [
+        -7.45,
+        -5.46,
+        3
+      ],
+      [
+        -7.45,
+        -5.46,
+        3
+      ],
+      [
+        6.64,
+        -3.39,
+        2.99
+      ],
+      [
+        18.2,
+        -1.71,
+        3.04
+      ],
+      [
+        18.2,
+        -1.71,
+        3.04
+      ],
+      [
+        18.2,
+        -1.71,
+        3.04
+      ],
+      [
+        17.8,
+        -5.38,
+        3.05
+      ],
+      [
+        -18.18,
+        -0.94,
+        3.03
+      ],
+      [
+        17.56,
+        -4.31,
+        78.72
+      ],
+      [
+        17.56,
+        -4.31,
+        78.72
+      ],
+      [
+        17.56,
+        -4.31,
+        78.72
+      ],
+      [
+        6.95,
+        -1.05,
+        2.98
+      ],
+      [
+        6.95,
+        -1.05,
+        2.98
+      ],
+      [
+        6.95,
+        -1.05,
+        2.98
+      ],
+      [
+        6.95,
+        -1.05,
+        2.98
+      ],
+      [
+        14.87,
+        6.55,
+        76.01
+      ],
+      [
+        14.87,
+        6.55,
+        76.01
+      ],
+      [
+        14.87,
+        6.55,
+        76.01
+      ],
+      [
+        -14.87,
+        6.55,
+        76.01
+      ],
+      [
+        -14.87,
+        6.55,
+        76.01
+      ],
+      [
+        -14.87,
+        6.55,
+        76.01
+      ],
+      [
+        14.76,
+        6.37,
+        76.26
+      ],
+      [
+        14.76,
+        6.37,
+        76.26
+      ],
+      [
+        14.76,
+        6.37,
+        76.26
+      ],
+      [
+        -17.47,
+        -18.86,
+        26.09
+      ],
+      [
+        -17.47,
+        -18.86,
+        26.09
+      ],
+      [
+        -17.47,
+        -18.86,
+        26.09
+      ],
+      [
+        -12.92,
+        7.29,
+        80.59
+      ],
+      [
+        -13.27,
+        7.51,
+        80.75
+      ],
+      [
+        -13.27,
+        7.51,
+        80.75
+      ],
+      [
+        -13.27,
+        7.51,
+        80.75
+      ],
+      [
+        -13.27,
+        7.51,
+        80.75
+      ],
+      [
+        -15.11,
+        8.59,
+        80.36
+      ],
+      [
+        -15.11,
+        8.59,
+        80.36
+      ],
+      [
+        -15.11,
+        8.59,
+        80.36
+      ],
+      [
+        -15.39,
+        8.77,
+        80.13
+      ],
+      [
+        -15.39,
+        8.77,
+        80.13
+      ],
+      [
+        -15.39,
+        8.77,
+        80.13
+      ],
+      [
+        18.92,
+        -17.45,
+        26.18
+      ],
+      [
+        13.03,
+        5.25,
+        77.57
+      ],
+      [
+        13.03,
+        5.25,
+        77.57
+      ],
+      [
+        13.03,
+        5.25,
+        77.57
+      ],
+      [
+        13.03,
+        5.25,
+        77.57
+      ],
+      [
+        15.56,
+        9.02,
+        79.6
+      ],
+      [
+        15.56,
+        9.02,
+        79.6
+      ],
+      [
+        15.56,
+        9.02,
+        79.6
+      ],
+      [
+        18.96,
+        -17.82,
+        26.28
+      ],
+      [
+        14.18,
+        8.08,
+        80.88
+      ],
+      [
+        -12.01,
+        6.63,
+        79.52
+      ],
+      [
+        -12.01,
+        6.63,
+        79.52
+      ],
+      [
+        -12.01,
+        6.63,
+        79.52
+      ],
+      [
+        -12.01,
+        6.63,
+        79.52
+      ],
+      [
+        -15.91,
+        9.2,
+        78.45
+      ],
+      [
+        -15.91,
+        9.2,
+        78.45
+      ],
+      [
+        -15.91,
+        9.2,
+        78.45
+      ],
+      [
+        13.48,
+        5.75,
+        76.98
+      ],
+      [
+        -13.83,
+        5.53,
+        76.97
+      ],
+      [
+        -12.55,
+        7.34,
+        80.37
+      ],
+      [
+        -12.55,
+        7.34,
+        80.37
+      ],
+      [
+        -12.55,
+        7.34,
+        80.37
+      ],
+      [
+        -12.55,
+        7.34,
+        80.37
+      ],
+      [
+        18.63,
+        -17.08,
+        25.71
+      ],
+      [
+        18.63,
+        -17.08,
+        25.71
+      ],
+      [
+        18.63,
+        -17.08,
+        25.71
+      ],
+      [
+        -18.33,
+        -3.43,
+        78.38
+      ],
+      [
+        -18.33,
+        -3.43,
+        78.38
+      ],
+      [
+        -18.33,
+        -3.43,
+        78.38
+      ],
+      [
+        -18.33,
+        -3.43,
+        78.38
+      ],
+      [
+        1.58,
+        -12.98,
+        78.91
+      ],
+      [
+        1.58,
+        -12.98,
+        78.91
+      ],
+      [
+        1.58,
+        -12.98,
+        78.91
+      ],
+      [
+        14.07,
+        6.09,
+        76.35
+      ],
+      [
+        17.41,
+        -18.43,
+        26.29
+      ],
+      [
+        -12.05,
+        7.06,
+        79.87
+      ],
+      [
+        -12.08,
+        5.91,
+        78.71
+      ],
+      [
+        -12.08,
+        5.91,
+        78.71
+      ],
+      [
+        -12.08,
+        5.91,
+        78.71
+      ],
+      [
+        1.51,
+        -13.26,
+        78.79
+      ],
+      [
+        -14.43,
+        6.3,
+        75.93
+      ],
+      [
+        -12.03,
+        7.21,
+        79.93
+      ],
+      [
+        -12.03,
+        7.21,
+        79.93
+      ],
+      [
+        -12.03,
+        7.21,
+        79.93
+      ],
+      [
+        -1.65,
+        -12.83,
+        78.78
+      ],
+      [
+        -1.65,
+        -12.83,
+        78.78
+      ],
+      [
+        -1.65,
+        -12.83,
+        78.78
+      ],
+      [
+        15.78,
+        -6.93,
+        78.96
+      ],
+      [
+        15.78,
+        -6.93,
+        78.96
+      ],
+      [
+        15.78,
+        -6.93,
+        78.96
+      ]
+    ],
+    "thinClusters": [
+      {
+        "where": "base plate",
+        "minMM": 0.03,
+        "meanMM": 0.03,
+        "samples": 3,
+        "centre": [
+          -7.45,
+          -5.46,
+          3
+        ]
+      },
+      {
+        "where": "base plate",
+        "minMM": 0.03,
+        "meanMM": 0.1,
+        "samples": 5,
+        "centre": [
+          6.64,
+          -3.39,
+          2.99
+        ]
+      },
+      {
+        "where": "base plate",
+        "minMM": 0.04,
+        "meanMM": 0.04,
+        "samples": 3,
+        "centre": [
+          18.2,
+          -1.71,
+          3.04
+        ]
+      },
+      {
+        "where": "left ear",
+        "minMM": 0.11,
+        "meanMM": 1.43,
+        "samples": 15,
+        "centre": [
+          17.56,
+          -4.31,
+          78.72
+        ]
+      },
+      {
+        "where": "left ear",
+        "minMM": 0.13,
+        "meanMM": 0.48,
+        "samples": 15,
+        "centre": [
+          14.87,
+          6.55,
+          76.01
+        ]
+      },
+      {
+        "where": "right ear",
+        "minMM": 0.13,
+        "meanMM": 0.33,
+        "samples": 5,
+        "centre": [
+          -14.87,
+          6.55,
+          76.01
+        ]
+      },
+      {
+        "where": "under the right paw",
+        "minMM": 0.16,
+        "meanMM": 0.16,
+        "samples": 3,
+        "centre": [
+          -17.47,
+          -18.86,
+          26.09
+        ]
+      },
+      {
+        "where": "right ear",
+        "minMM": 0.16,
+        "meanMM": 0.45,
+        "samples": 26,
+        "centre": [
+          -12.92,
+          7.29,
+          80.59
+        ]
+      },
+      {
+        "where": "under the left paw",
+        "minMM": 0.26,
+        "meanMM": 0.48,
+        "samples": 6,
+        "centre": [
+          18.92,
+          -17.45,
+          26.18
+        ]
+      },
+      {
+        "where": "left ear",
+        "minMM": 0.38,
+        "meanMM": 0.38,
+        "samples": 4,
+        "centre": [
+          15.56,
+          9.02,
+          79.6
+        ]
+      },
+      {
+        "where": "right ear",
+        "minMM": 0.46,
+        "meanMM": 0.46,
+        "samples": 3,
+        "centre": [
+          -15.91,
+          9.2,
+          78.45
+        ]
+      },
+      {
+        "where": "right ear",
+        "minMM": 0.56,
+        "meanMM": 1.2,
+        "samples": 8,
+        "centre": [
+          -18.33,
+          -3.43,
+          78.38
+        ]
+      }
+    ],
+    "details": [
+      {
+        "feature": "mouth / smile line (ink)",
+        "widthMM": 1.17
+      },
+      {
+        "feature": "nostrils (ink)",
+        "widthMM": 1.5
+      },
+      {
+        "feature": "finger / toe grooves (relief)",
+        "widthMM": 1.5
+      },
+      {
+        "feature": "chin crease groove (relief)",
+        "widthMM": 1.5
+      },
+      {
+        "feature": "lens glints (white)",
+        "widthMM": 2.34
+      },
+      {
+        "feature": "glasses strap (ink)",
+        "widthMM": 2.51
+      }
+    ],
+    "scale": {
+      "structuralMinMM": 2.35,
+      "structuralMinRegion": "ear",
+      "minFigureHeightHardMM": 28,
+      "minFigureHeightRecommendedMM": 41,
+      "minFigureHeightDetailsMM": 55,
+      "minFigureHeight02NozzleMM": 28
+    }
+  },
+  "filament": {
+    "solidVolumeCM3": 99.49,
+    "solidGrams": 123.37,
+    "estimateGrams3Walls15": 40.89,
+    "supportEnvelopeCM3": 10.84,
+    "supportGramsEstimate": 2.02,
+    "perPart": [
+      {
+        "part": "fur",
+        "solidVolumeCM3": 88.576,
+        "solidGrams": 109.83
+      },
+      {
+        "part": "fur_shade",
+        "solidVolumeCM3": 3.709,
+        "solidGrams": 4.6
+      },
+      {
+        "part": "glint",
+        "solidVolumeCM3": 0.024,
+        "solidGrams": 0.03
+      },
+      {
+        "part": "ink",
+        "solidVolumeCM3": 7.159,
+        "solidGrams": 8.88
+      }
+    ],
+    "scaled120": {
+      "solidGrams": 416.36,
+      "estimateGrams": 112.83
+    }
+  },
+  "slicer": {
+    "available": true,
+    "printer": "Bambu Lab X1 Carbon 0.4 nozzle",
+    "process": "0.20mm Standard @BBL X1C",
+    "filament": "Bambu PLA Basic @BBL X1C",
+    "overrides": {
+      "enable_support": "1",
+      "support_type": "tree(auto)",
+      "support_threshold_angle": "45",
+      "wall_loops": "3",
+      "sparse_infill_density": "15%",
+      "support_on_build_plate_only": "0"
+    },
+    "roundTrip": {
+      "parts": [
+        {
+          "name": "fur",
+          "extruder": 1
+        },
+        {
+          "name": "fur_shade",
+          "extruder": 2
+        },
+        {
+          "name": "ink",
+          "extruder": 3
+        },
+        {
+          "name": "glint",
+          "extruder": 4
+        }
+      ],
+      "ok": true
+    },
+    "single80": {
+      "slicerReportedGrams": 41.56,
+      "slicerReportedPerSlot": [
+        41.56
+      ],
+      "timeH": 1.28,
+      "layers": 415,
+      "filamentChanges": 0,
+      "perFilament": [
+        {
+          "slot": 1,
+          "colour": "#9BE0DF",
+          "modelG": 38.56,
+          "supportG": 3.09,
+          "flushG": 0,
+          "towerG": 0,
+          "totalG": 41.65
+        }
+      ],
+      "totalGrams": 41.65,
+      "supportGrams": 3.09,
+      "modelGrams": 38.56,
+      "purgeGrams": 0,
+      "warning": "",
+      "supportZones": [
+        {
+          "where": "chin / underside of the snout",
+          "zRangeMM": [
+            0.2,
+            56.2
+          ],
+          "grams": 1.83,
+          "centreXY": [
+            -0.12,
+            -25.53
+          ]
+        },
+        {
+          "where": "underside between the legs (crotch / rump)",
+          "zRangeMM": [
+            3.4,
+            14.2
+          ],
+          "grams": 1.26,
+          "centreXY": [
+            0.13,
+            1.4
+          ]
+        }
+      ]
+    },
+    "multi80": {
+      "slicerReportedGrams": 145.9,
+      "slicerReportedPerSlot": [
+        78.8,
+        42.91,
+        18.32,
+        5.87
+      ],
+      "timeH": 9.03,
+      "layers": 415,
+      "filamentChanges": 250,
+      "perFilament": [
+        {
+          "slot": 1,
+          "colour": "#9BE0DF",
+          "modelG": 28.76,
+          "supportG": 3.06,
+          "flushG": 35.74,
+          "towerG": 15.39,
+          "totalG": 82.94
+        },
+        {
+          "slot": 2,
+          "colour": "#21B3B4",
+          "modelG": 3.92,
+          "supportG": 0.06,
+          "flushG": 39.57,
+          "towerG": 4.46,
+          "totalG": 48.02
+        },
+        {
+          "slot": 3,
+          "colour": "#0A0F0F",
+          "modelG": 6.81,
+          "supportG": 0.09,
+          "flushG": 10.42,
+          "towerG": 3.06,
+          "totalG": 20.37
+        },
+        {
+          "slot": 4,
+          "colour": "#FCFDFD",
+          "modelG": 0.34,
+          "supportG": 0,
+          "flushG": 5.66,
+          "towerG": 0.59,
+          "totalG": 6.59
+        }
+      ],
+      "totalGrams": 157.92,
+      "supportGrams": 3.21,
+      "modelGrams": 39.83,
+      "purgeGrams": 114.89,
+      "warning": "",
+      "settings": "flush into infill + support enabled",
+      "supportZones": [
+        {
+          "where": "chin / underside of the snout",
+          "zRangeMM": [
+            0.2,
+            56.4
+          ],
+          "grams": 1.95,
+          "centreXY": [
+            0.02,
+            -25.55
+          ]
+        },
+        {
+          "where": "underside between the legs (crotch / rump)",
+          "zRangeMM": [
+            3.4,
+            14
+          ],
+          "grams": 1.26,
+          "centreXY": [
+            -0.1,
+            1.41
+          ]
+        }
+      ]
+    },
+    "multi80_3col": {
+      "slicerReportedGrams": 133.88,
+      "slicerReportedPerSlot": [
+        72.71,
+        43.54,
+        17.63
+      ],
+      "timeH": 8.09,
+      "layers": 415,
+      "filamentChanges": 219,
+      "perFilament": [
+        {
+          "slot": 1,
+          "colour": "#9BE0DF",
+          "modelG": 29.09,
+          "supportG": 3.06,
+          "flushG": 31.45,
+          "towerG": 12.49,
+          "totalG": 76.09
+        },
+        {
+          "slot": 2,
+          "colour": "#21B3B4",
+          "modelG": 3.91,
+          "supportG": 0.06,
+          "flushG": 40.23,
+          "towerG": 4.5,
+          "totalG": 48.69
+        },
+        {
+          "slot": 3,
+          "colour": "#0A0F0F",
+          "modelG": 6.83,
+          "supportG": 0.09,
+          "flushG": 10.17,
+          "towerG": 2.55,
+          "totalG": 19.63
+        }
+      ],
+      "totalGrams": 144.41,
+      "supportGrams": 3.21,
+      "modelGrams": 39.83,
+      "purgeGrams": 101.39,
+      "warning": "",
+      "settings": "glint printed in ink (paint the glints), flush into infill + support",
+      "supportZones": [
+        {
+          "where": "chin / underside of the snout",
+          "zRangeMM": [
+            0.2,
+            56.4
+          ],
+          "grams": 1.95,
+          "centreXY": [
+            0.01,
+            -25.56
+          ]
+        },
+        {
+          "where": "underside between the legs (crotch / rump)",
+          "zRangeMM": [
+            3.4,
+            14
+          ],
+          "grams": 1.26,
+          "centreXY": [
+            -0.1,
+            1.41
+          ]
+        }
+      ]
+    },
+    "single120": {
+      "slicerReportedGrams": 116.27,
+      "slicerReportedPerSlot": [
+        116.27
+      ],
+      "timeH": 2.98,
+      "layers": 622,
+      "filamentChanges": 0,
+      "perFilament": [
+        {
+          "slot": 1,
+          "colour": "#9BE0DF",
+          "modelG": 107.37,
+          "supportG": 8.98,
+          "flushG": 0,
+          "towerG": 0,
+          "totalG": 116.35
+        }
+      ],
+      "totalGrams": 116.35,
+      "supportGrams": 8.98,
+      "modelGrams": 107.37,
+      "purgeGrams": 0,
+      "warning": "",
+      "supportZones": [
+        {
+          "where": "chin / underside of the snout",
+          "zRangeMM": [
+            0.2,
+            84.2
+          ],
+          "grams": 5.66,
+          "centreXY": [
+            0.98,
+            -34.51
+          ]
+        },
+        {
+          "where": "underside between the legs (crotch / rump)",
+          "zRangeMM": [
+            4.8,
+            20.6
+          ],
+          "grams": 3.28,
+          "centreXY": [
+            -0.03,
+            3.02
+          ]
+        }
+      ]
+    }
+  }
+}

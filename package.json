@@ -1,0 +1,29 @@
+{
+  "name": "kubara",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "render": "node scripts/render.mjs",
+    "dev": "vite game",
+    "build:game": "vite build game",
+    "preview:game": "vite preview game",
+    "shot:game": "node game/tools/screenshot.mjs",
+    "check:game": "vite build game && node game/tools/check-build.mjs",
+    "print:report": "node scripts/print-report.mjs",
+    "render:print": "node scripts/render-print.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@gltf-transform/core": "^4.5.1",
+    "fflate": "^0.8.3",
+    "manifold-3d": "^3.5.4",
+    "meshoptimizer": "^1.3.0",
+    "puppeteer-core": "^25.15.0",
+    "three": "^0.186.1",
+    "vite": "^8.3.5"
+  }
+}

@@ -1,0 +1,372 @@
+{
+  "date": "2026-10-22T00:01:41.901Z",
+  "fast": false,
+  "game": {
+    "total": 29654,
+    "parts": [
+      {
+        "part": "body",
+        "tris": 6000,
+        "material": "fur",
+        "closed": true,
+        "shells": 1
+      },
+      {
+        "part": "head",
+        "tris": 5600,
+        "material": "fur",
+        "closed": true,
+        "shells": 1
+      },
+      {
+        "part": "muzzle",
+        "tris": 1000,
+        "material": "fur_shade",
+        "closed": true,
+        "shells": 1
+      },
+      {
+        "part": "nostril_l",
+        "tris": 220,
+        "material": "ink",
+        "closed": true,
+        "shells": 1
+      },
+      {
+        "part": "nostril_r",
+        "tris": 220,
+        "material": "ink",
+        "closed": true,
+        "shells": 1
+      },
+      {
+        "part": "mouth",
+        "tris": 450,
+        "material": "ink",
+        "closed": true,
+        "shells": 1
+      },
+      {
+        "part": "jaw_line",
+        "tris": 300,
+        "material": "ink",
+        "closed": true,
+        "shells": 1
+      },
+      {
+        "part": "ear_l",
+        "tris": 650,
+        "material": "fur",
+        "closed": true,
+        "shells": 1
+      },
+      {
+        "part": "ear_inner_l",
+        "tris": 200,
+        "material": "fur_shade",
+        "closed": true,
+        "shells": 1
+      },
+      {
+        "part": "ear_r",
+        "tris": 650,
+        "material": "fur",
+        "closed": true,
+        "shells": 1
+      },
+      {
+        "part": "ear_inner_r",
+        "tris": 200,
+        "material": "fur_shade",
+        "closed": true,
+        "shells": 1
+      },
+      {
+        "part": "glasses",
+        "tris": 2900,
+        "material": "ink",
+        "closed": true,
+        "shells": 2
+      },
+      {
+        "part": "lens_l",
+        "tris": 1188,
+        "material": "ink",
+        "closed": true
+      },
+      {
+        "part": "glint_l",
+        "tris": 544,
+        "material": "glint",
+        "closed": true
+      },
+      {
+        "part": "lens_r",
+        "tris": 1188,
+        "material": "ink",
+        "closed": true
+      },
+      {
+        "part": "glint_r",
+        "tris": 544,
+        "material": "glint",
+        "closed": true
+      },
+      {
+        "part": "arm_l",
+        "tris": 800,
+        "material": "fur",
+        "closed": true,
+        "shells": 1
+      },
+      {
+        "part": "hand_l",
+        "tris": 1300,
+        "material": "fur",
+        "closed": true,
+        "shells": 1
+      },
+      {
+        "part": "leg_l",
+        "tris": 700,
+        "material": "fur",
+        "closed": true,
+        "shells": 1
+      },
+      {
+        "part": "foot_l",
+        "tris": 1100,
+        "material": "fur",
+        "closed": true,
+        "shells": 1
+      },
+      {
+        "part": "arm_r",
+        "tris": 800,
+        "material": "fur",
+        "closed": true,
+        "shells": 1
+      },
+      {
+        "part": "hand_r",
+        "tris": 1300,
+        "material": "fur",
+        "closed": true,
+        "shells": 1
+      },
+      {
+        "part": "leg_r",
+        "tris": 700,
+        "material": "fur",
+        "closed": true,
+        "shells": 1
+      },
+      {
+        "part": "foot_r",
+        "tris": 1100,
+        "material": "fur",
+        "closed": true,
+        "shells": 1
+      }
+    ],
+    "notClosed": []
+  },
+  "print": {
+    "scaleMMPerUnit": 83.596,
+    "figureHeightMM": 80,
+    "baseMM": 2.93,
+    "partOverlapMM3": 0.0083,
+    "partsOutsideBodyMM3": 0.0003,
+    "checks": [
+      {
+        "name": "kubara.stl",
+        "status": "NoError",
+        "triangles": 116668,
+        "genus": 1,
+        "volume": 99487.952,
+        "shells": 1,
+        "bbox": {
+          "min": [
+            -26.62,
+            -30.03,
+            0
+          ],
+          "max": [
+            26.62,
+            24.85,
+            82.93
+          ]
+        },
+        "watertight": true,
+        "welded": {
+          "boundary": 0,
+          "nonManifold": 0,
+          "misoriented": 0,
+          "components": 1,
+          "degenerate": 0,
+          "reload": "ok",
+          "reloadShells": 1
+        },
+        "verified": true,
+        "unpinched": 12
+      },
+      {
+        "name": "parts/fur.stl",
+        "status": "NoError",
+        "triangles": 128474,
+        "genus": 2,
+        "volume": 88576.354,
+        "shells": 1,
+        "bbox": {
+          "min": [
+            -24.33,
+            -22.57,
+            2.93
+          ],
+          "max": [
+            24.33,
+            22.22,
+            82.93
+          ]
+        },
+        "watertight": true,
+        "welded": {
+          "boundary": 0,
+          "nonManifold": 0,
+          "misoriented": 0,
+          "components": 1,
+          "degenerate": 0,
+          "reload": "ok",
+          "reloadShells": 1
+        },
+        "verified": true,
+        "unpinched": 18
+      },
+      {
+        "name": "parts/fur_shade.stl",
+        "status": "NoError",
+        "triangles": 39642,
+        "genus": -2,
+        "volume": 3708.966,
+        "shells": 3,
+        "bbox": {
+          "min": [
+            -15.85,
+            -29.79,
+            54.13
+          ],
+          "max": [
+            15.85,
+            11.52,
+            80.92
+          ]
+        },
+        "watertight": true,
+        "welded": {
+          "boundary": 0,
+          "nonManifold": 0,
+          "misoriented": 0,
+          "components": 3,
+          "degenerate": 0,
+          "reload": "ok",
+          "reloadShells": 3
+        },
+        "verified": true
+      },
+      {
+        "name": "parts/ink.stl",
+        "status": "NoError",
+        "triangles": 78966,
+        "genus": -3,
+        "volume": 7159.326,
+        "shells": 5,
+        "bbox": {
+          "min": [
+            -26.62,
+            -30.03,
+            0
+          ],
+          "max": [
+            26.62,
+            24.85,
+            79
+          ]
+        },
+        "watertight": true,
+        "welded": {
+          "boundary": 0,
+          "nonManifold": 0,
+          "misoriented": 0,
+          "components": 5,
+          "degenerate": 0,
+          "reload": "ok",
+          "reloadShells": 5
+        },
+        "verified": true,
+        "unpinched": 8
+      },
+      {
+        "name": "parts/glint.stl",
+        "status": "NoError",
+        "triangles": 3544,
+        "genus": -1,
+        "volume": 23.925,
+        "shells": 2,
+        "bbox": {
+          "min": [
+            -14.98,
+            -12.73,
+            72.32
+          ],
+          "max": [
+            14.98,
+            -8.17,
+            78.58
+          ]
+        },
+        "watertight": true,
+        "welded": {
+          "boundary": 0,
+          "nonManifold": 0,
+          "misoriented": 0,
+          "components": 2,
+          "degenerate": 0,
+          "reload": "ok",
+          "reloadShells": 2
+        },
+        "verified": true
+      },
+      {
+        "name": "kubara_nobase.stl",
+        "status": "NoError",
+        "triangles": 110986,
+        "genus": 0,
+        "volume": 93420.286,
+        "shells": 1,
+        "bbox": {
+          "min": [
+            -24.33,
+            -30.03,
+            0
+          ],
+          "max": [
+            24.33,
+            22.22,
+            80
+          ]
+        },
+        "watertight": true,
+        "welded": {
+          "boundary": 0,
+          "nonManifold": 0,
+          "misoriented": 0,
+          "components": 1,
+          "degenerate": 0,
+          "reload": "ok",
+          "reloadShells": 1
+        },
+        "verified": true
+      }
+    ]
+  }
+}

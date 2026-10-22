@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no" />
+    <meta name="theme-color" content="#dff1ea" />
+    <title>kubara meadow</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpolygon points='50,6 84.4,22.6 92.9,59.8 69.1,89.6 30.9,89.6 7.1,59.8 15.6,22.6' fill='%239BE0DF' stroke='%230A0F0F' stroke-width='7'/%3E%3Crect x='24' y='40' width='52' height='16' rx='4' fill='%230A0F0F'/%3E%3C/svg%3E" />
+  </head>
+  <body>
+    <div id="app"></div>
+
+    <header class="hud-top">
+      <div class="brand">
+        <svg viewBox="0 0 100 100" aria-hidden="true">
+          <polygon points="50,6 84.4,22.6 92.9,59.8 69.1,89.6 30.9,89.6 7.1,59.8 15.6,22.6" fill="#9BE0DF" stroke="#0A0F0F" stroke-width="7" stroke-linejoin="round" />
+          <rect x="24" y="40" width="52" height="16" rx="4" fill="#0A0F0F" />
+          <rect x="34" y="56" width="32" height="20" rx="9" fill="#21B3B4" stroke="#0A0F0F" stroke-width="4" />
+        </svg>
+        <span>kubara</span>
+      </div>
+      <div class="counter" title="yuzu collected">
+        <i class="yuzu-icon"></i><b id="count">0</b><span>/</span><span id="total">12</span>
+      </div>
+      <button id="mute" class="icon-btn" title="Sound on/off (M)" aria-label="Toggle sound">
+        <svg viewBox="0 0 24 24"><path d="M4 9v6h4l5 4V5L8 9H4z" /><path class="waves" d="M16 8.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12" /></svg>
+      </button>
+    </header>
+
+    <div id="toast"></div>
+
+    <aside id="help">
+      <div class="keys-row"><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> / arrows <span>walk</span></div>
+      <div class="keys-row"><kbd>Shift</kbd> <span>run</span></div>
+      <div class="keys-row"><kbd>Space</kbd> <span>jump</span></div>
+      <div class="keys-row"><kbd>E</kbd> <span>wave</span></div>
+      <div class="keys-row"><kbd>drag</kbd> <kbd>wheel</kbd> <span>camera</span></div>
+      <div class="keys-row dim"><kbd>H</kbd> hide help &middot; <kbd>R</kbd> respawn</div>
+    </aside>
+
+    <div id="touch">
+      <div id="stick"><div class="knob"></div></div>
+      <div class="buttons">
+        <button id="btn-wave" aria-label="Wave">wave</button>
+        <button id="btn-jump" aria-label="Jump">jump</button>
+      </div>
+    </div>
+
+    <div id="loading">
+      <div class="spinner"></div>
+      <p>kubara is putting on the shades&hellip;</p>
+      <div class="bar"><div id="loading-bar"></div></div>
+    </div>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

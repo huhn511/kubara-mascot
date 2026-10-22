@@ -1,0 +1,125 @@
+:root {
+  --fur: #9be0df;
+  --shade: #21b3b4;
+  --ink: #0a0f0f;
+  --paper: #fffdf6;
+  --font: ui-rounded, 'SF Pro Rounded', 'Avenir Next', 'Nunito', system-ui, sans-serif;
+}
+* { box-sizing: border-box; }
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  background: #dff1ea;
+  font-family: var(--font);
+  color: var(--ink);
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+#app, #app canvas { position: fixed; inset: 0; display: block; touch-action: none; }
+
+/* ---- top bar */
+.hud-top {
+  position: fixed;
+  top: calc(env(safe-area-inset-top, 0px) + 14px);
+  left: 16px;
+  right: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  pointer-events: none;
+}
+.brand, .counter, .icon-btn, #help, #toast {
+  background: var(--paper);
+  border: 3px solid var(--ink);
+  border-radius: 16px;
+  box-shadow: 0 4px 0 var(--ink);
+}
+.brand { display: flex; align-items: center; gap: 8px; padding: 6px 14px 6px 8px; font-weight: 800; font-size: 20px; letter-spacing: 0.02em; }
+.brand svg { width: 30px; height: 30px; }
+.counter { display: flex; align-items: center; gap: 6px; padding: 6px 14px; font-size: 20px; font-weight: 800; font-variant-numeric: tabular-nums; }
+.counter span { opacity: 0.55; }
+.counter.bump { animation: bump 0.35s ease-out; }
+@keyframes bump { 40% { transform: scale(1.18) rotate(-3deg); } }
+.yuzu-icon {
+  width: 20px; height: 20px; border-radius: 50%;
+  background: radial-gradient(circle at 35% 35%, #ffe08a, #ffb81f 60%, #e89412);
+  border: 2px solid var(--ink);
+  position: relative;
+}
+.yuzu-icon::after {
+  content: ''; position: absolute; width: 9px; height: 5px; background: #4caf50; border: 2px solid var(--ink);
+  border-radius: 0 8px 0 8px; top: -6px; left: 8px;
+}
+.icon-btn { margin-left: auto; width: 46px; height: 46px; display: grid; place-items: center; cursor: pointer; pointer-events: auto; padding: 0; }
+.icon-btn svg { width: 24px; height: 24px; fill: var(--ink); }
+.icon-btn .waves { fill: none; stroke: var(--ink); stroke-width: 2; stroke-linecap: round; }
+.icon-btn.off .waves { display: none; }
+.icon-btn:active { transform: translateY(3px); box-shadow: 0 1px 0 var(--ink); }
+
+/* ---- toast */
+#toast {
+  position: fixed; left: 50%; top: 84px; transform: translate(-50%, -12px) scale(0.96);
+  padding: 8px 18px; font-weight: 800; font-size: 17px; opacity: 0; transition: opacity 0.25s, transform 0.25s;
+  pointer-events: none; white-space: nowrap; background: var(--fur);
+}
+#toast.show { opacity: 1; transform: translate(-50%, 0) scale(1); }
+
+/* ---- help */
+#help {
+  position: fixed; left: 16px; bottom: calc(env(safe-area-inset-bottom, 0px) + 16px);
+  padding: 10px 14px; font-size: 13px; font-weight: 700; line-height: 1.9; pointer-events: none;
+  transition: opacity 0.3s;
+}
+#help.hidden { opacity: 0; }
+#help span { opacity: 0.6; margin-left: 4px; }
+#help .dim { opacity: 0.6; font-size: 12px; }
+kbd {
+  display: inline-block; min-width: 22px; padding: 0 6px; margin-right: 2px; text-align: center;
+  font: 800 11px/20px var(--font); background: var(--fur); border: 2px solid var(--ink); border-radius: 6px;
+}
+
+/* ---- touch controls */
+#touch { display: none; }
+body.touch #touch { display: block; }
+body.touch #help { display: none; }
+#stick {
+  position: fixed; left: calc(env(safe-area-inset-left, 0px) + 28px); bottom: calc(env(safe-area-inset-bottom, 0px) + 28px);
+  width: 128px; height: 128px; border-radius: 50%;
+  background: rgba(255, 253, 246, 0.55); border: 3px solid var(--ink); touch-action: none;
+}
+#stick .knob {
+  position: absolute; left: 50%; top: 50%; width: 56px; height: 56px; margin: -28px 0 0 -28px; border-radius: 50%;
+  background: var(--fur); border: 3px solid var(--ink); box-shadow: 0 3px 0 var(--ink); pointer-events: none;
+}
+#touch .buttons {
+  position: fixed; right: calc(env(safe-area-inset-right, 0px) + 24px); bottom: calc(env(safe-area-inset-bottom, 0px) + 30px);
+  display: flex; gap: 14px; align-items: flex-end;
+}
+#touch button {
+  width: 76px; height: 76px; border-radius: 50%; border: 3px solid var(--ink); box-shadow: 0 4px 0 var(--ink);
+  font: 800 15px var(--font); color: var(--ink); background: var(--paper); touch-action: none;
+}
+#touch #btn-jump { width: 92px; height: 92px; background: var(--fur); font-size: 17px; }
+#touch button.down { transform: translateY(3px); box-shadow: 0 1px 0 var(--ink); }
+
+/* ---- loading */
+#loading {
+  position: fixed; inset: 0; display: grid; place-content: center; justify-items: center; gap: 14px;
+  background: #dff1ea; font-weight: 800; transition: opacity 0.5s;
+}
+#loading.done { opacity: 0; pointer-events: none; }
+#loading p { margin: 0; }
+#loading .bar { width: 200px; height: 12px; border: 3px solid var(--ink); border-radius: 8px; overflow: hidden; background: var(--paper); }
+#loading-bar { height: 100%; width: 0; background: var(--shade); transition: width 0.2s; }
+.spinner {
+  width: 46px; height: 46px; border: 6px solid var(--fur); border-top-color: var(--ink); border-radius: 50%;
+  animation: spin 0.9s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+@media (max-width: 520px) {
+  .brand span { display: none; }
+  .brand, .counter { font-size: 18px; }
+}

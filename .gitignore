@@ -1,0 +1,7 @@
+node_modules/
+.review/
+game/dist/
+renders/review_*
+renders/tech_*
+.DS_Store
+result.json
